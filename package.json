@@ -1,7 +1,7 @@
 {
-  "name": ".",
+  "name": "lab16",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ripe Banana data modeling lab",
   "main": "server.js",
   "scripts": {
     "test": "jest --verbose --runInBand",
