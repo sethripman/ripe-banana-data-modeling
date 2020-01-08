@@ -8,7 +8,7 @@ const Actor = require('../../lib/models/Actor');
 const Film = require('../../lib/models/Film');
 const Studio = require('../../lib/models/Studio');
 
-describe('actors routes', () => {
+describe('Actor routes', () => {
   beforeAll(() => {
     connect();
   });
