@@ -37,11 +37,11 @@ describe('Actor routes', () => {
     });
 
     film = await Film.create({
-      title: 'The Hog Story',
+      title: 'Hogging',
       studio: studio.id,
       released: 2019,
       cast: [{
-        role: 'Hog',
+        role: 'Roadog',
         actor: actor.id
       }]
     });
@@ -68,7 +68,7 @@ describe('Actor routes', () => {
           pob: 'Australia',
           films: [{
             _id: film.id,
-            title: 'The Hog Story',
+            title: 'Hogging',
             released: 2019
           }]
         });
