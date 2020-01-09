@@ -2,13 +2,13 @@ require('dotenv').config();
 
 const request = require('supertest');
 const app = require('../lib/app');
-const connect = require('../../lib/utils/connect');
+const connect = require('../lib/utils/connect');
 const mongoose = require('mongoose');
-const Film = require('../../lib/models/Film');
-const Studio = require('../../lib/models/Studio');
-const Actor = require('../../lib/models/Actor');
-const Review = require('../../lib/models/Review');
-const Reviewer = require('../../lib/models/Reviewer');
+const Film = require('../lib/models/Film');
+const Studio = require('../lib/models/Studio');
+const Actor = require('../lib/models/Actor');
+const Review = require('../lib/models/Review');
+const Reviewer = require('../lib/models/Reviewer');
 
 describe('Film routes', () => {
   beforeAll(() => {
