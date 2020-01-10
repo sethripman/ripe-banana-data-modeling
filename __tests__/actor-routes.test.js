@@ -60,7 +60,7 @@ describe('Actor routes', () => {
 
   it('gets an actor by id', () => {
     return request(app)
-      .get(`/api/v1/actors/${actor.id}`)
+      .get(`/api/v1/actors/${actor._id}`)
       .then(res => {
         expect(res.body).toEqual({
           name: 'Hog',
